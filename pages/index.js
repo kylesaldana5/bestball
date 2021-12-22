@@ -159,38 +159,6 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-						<div>
-							<div tw="flex flex-col justify-center items-center pt-16">
-								<h1
-									tw="text-blue-300 text-3xl "
-									css={[
-										css`
-											font-family: "Space Mono", monospace;
-										`,
-									]}
-								>
-									BestBall Exposure
-								</h1>
-								<p tw="text-white font-sans">
-									Load your Underdog Exposure here 👇
-								</p>
-							</div>
-							<div tw="w-full">
-								<div tw="py-3.5 flex justify-center items-center">
-									<CSVReader
-										onDrop={handleOnDropUnderDogExposure}
-										onError={handleOnError}
-										noClick
-										addRemoveButton
-										onRemoveFile={handleOnRemoveFile}
-									>
-										<span tw="font-sans text-white">
-											Drop CSV file here to upload.
-										</span>
-									</CSVReader>
-								</div>
-							</div>
-						</div>
 					</div>
 
 					{/* grid of adp csv */}
