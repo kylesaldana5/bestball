@@ -1,6 +1,7 @@
 import { css, styled } from "twin.macro";
 
 const ADPBox = ({ data, highlightedTeamMembers, selectedTeamColor, Team }) => {
+
 	return (
 		<Container
 			highlightedTeamMembers={highlightedTeamMembers}

@@ -6,7 +6,7 @@ const ProjectInfo = () => {
 			tw=" flex flex-col items-center justify-start w-full rounded-lg pb-14 px-12"
 			css={[
 				css`
-					height: 50vh;
+					height: 60vh;
 					background-image: linear-gradient(
 						to top,
 						#30cfd0 0%,

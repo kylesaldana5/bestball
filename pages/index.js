@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { css, styled } from "twin.macro";
 import { CSVReader } from "react-papaparse";
 import { useState } from "react";
@@ -9,15 +8,13 @@ import { areEqual } from "../utils";
 export default function Home() {
 	const [csvADPGrid, setCsvADPGrid] = useState([]);
 	const [csvUnderDogExposure, setCsvUnderDogExposure] = useState([]);
-	console.log(
-		"🚀 ~ file: index.js ~ line 13 ~ Home ~ csvUnderDogExposure",
-		csvUnderDogExposure
-	);
+
 	const [isModalOpen, setModalOpen] = useState(false);
 	const [wrongCsvType, setWrongCsvType] = useState(false);
 
 	// handle csv upload for adp grid
 	const handleOnDropADPGrid = (data) => {
+
 		// default underdog csv adp header
 		let underDogHeader = [
 			"id",
@@ -25,6 +22,7 @@ export default function Home() {
 			"lastName",
 			"adp",
 			"projectedPoints",
+			"positionRank",
 			"slotName",
 			"teamName",
 			"lineupStatus",

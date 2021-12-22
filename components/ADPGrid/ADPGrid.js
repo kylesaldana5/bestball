@@ -10,9 +10,9 @@ const ADPGrid = ({ csv }) => {
 	// loop over the upload csv to make the adp grid
 	const createADPBoxes = (csv) => {
 		return csv.map((data, index) => {
-			let highlightedTeamMembers = data.data[6] === selectedTeam?.Name;
+			let highlightedTeamMembers = data.data[7] === selectedTeam?.Name;
 			let selectedTeamColor = selectedTeam?.PrimaryColor;
-			let Team = NFLTeams.find((team) => team.Name === data.data[6]);
+			let Team = NFLTeams.find((team) => team.Name === data.data[7]);
 
 			return (
 				<div className={"item"}>
