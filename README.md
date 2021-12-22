@@ -6,11 +6,10 @@
 
 Wondering which stacks fall to which position in your draft? Have you picked a WR1 only to realize later its QB is never falling around your draft position. The adp grid helps you visualize who is falling around you and helps reverse engineer late round stacks or unique builds.
 
+If you do not have an underdog account to download your own custom ADP you can use the link below to see how the app works. 
 ## Links
 
 - [Live](<https://underdog-adp-grid.vercel.app/> "Live View")
-
-If you do not have an underdog account to download your own custom ADP you can use this link to see how the app works. 
 - [Underdog-ADP.csv](https://github.com/kylesaldana5/bestball/files/7764834/Underdog-ADP.csv)
 
 ### Built With
