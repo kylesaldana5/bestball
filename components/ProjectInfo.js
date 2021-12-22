@@ -29,7 +29,7 @@ const ProjectInfo = () => {
 				<p tw="mt-4 text-white text-lg font-sans font-medium">
 					<span tw="underline text-indigo-200 cursor-pointer">
 						<a
-							target="_blank"
+							target="example"
 							href="https://underdogfantasy.com/rankings/NFL"
 						>
 							Click here{" "}
