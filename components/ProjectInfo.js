@@ -23,7 +23,7 @@ const ProjectInfo = () => {
 					Wondering which stacks fall to which position in your draft? Have
 					you picked a WR1 only to realize later its QB is never falling
 					around your draft position. The adp grid helps you visualize who
-					is falling around you and helps you reverse engineer late round
+					is falling around you and helps reverse engineer late round
 					stacks or unique builds.
 				</p>
 				<p tw="mt-4 text-white text-lg font-sans font-medium">
