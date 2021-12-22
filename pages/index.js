@@ -14,7 +14,6 @@ export default function Home() {
 
 	// handle csv upload for adp grid
 	const handleOnDropADPGrid = (data) => {
-
 		// default underdog csv adp header
 		let underDogHeader = [
 			"id",
