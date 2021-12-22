@@ -1,5 +1,4 @@
 <!-- ABOUT THE PROJECT -->
-##Underdog ADP Grid 
 
 ## About The Project
 
