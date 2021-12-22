@@ -9,10 +9,6 @@ const ExposureContainer = ({ csv }) => {
 		}
 		groupedExposure[item.data[7]].push(item.data);
 	});
-	console.log(
-		"🚀 ~ file: ExposureContainer.js ~ line 6 ~ ExposureContainer ~ groupedExposure",
-		groupedExposure
-	);
 
 	const makePlayerList = () => {};
 

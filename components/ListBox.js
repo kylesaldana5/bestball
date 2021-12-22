@@ -4,10 +4,6 @@ import "twin.macro";
 
 const ListBox = ({ items, onChange, selected, placeholder }) => {
 	const [selectedItem, setSelectedItem] = useState(selected);
-	console.log(
-		"🚀 ~ file: ListBox.js ~ line 7 ~ ListBox ~ selectedItem",
-		selectedItem
-	);
 
 	const handleChanged = (item) => {
 		if (onChange) onChange(item);
