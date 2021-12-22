@@ -15,7 +15,7 @@ const ADPGrid = ({ csv }) => {
 			let Team = NFLTeams.find((team) => team.Name === data.data[7]);
 
 			return (
-				<div className={"item"}>
+				<div className={"item"} key={index}>
 					<ADPBOX
 						data={data}
 						highlightedTeamMembers={highlightedTeamMembers}
