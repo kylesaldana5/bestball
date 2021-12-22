@@ -14,8 +14,8 @@ const ExposureContainer = ({ csv }) => {
 
 	const makePlayerCards = (groupedExposure) => {
 		groupedExposure.forEach((draft) => {
-			return draft.map((data) => {
-				return <PlayerListCard draftData={data} />;
+			return draft.map((data, key) => {
+				return <PlayerListCard draftData={data} key={key} />;
 			});
 		});
 	};
