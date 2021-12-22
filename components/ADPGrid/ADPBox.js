@@ -1,4 +1,5 @@
 import { css, styled } from "twin.macro";
+import Image from "next/image";
 
 const ADPBox = ({ data, highlightedTeamMembers, selectedTeamColor, Team }) => {
 
@@ -14,7 +15,7 @@ const ADPBox = ({ data, highlightedTeamMembers, selectedTeamColor, Team }) => {
 				</div>
 				{Team?.Image && (
 					<div tw="w-4 h-4">
-						<img tw="w-full h-full" src={Team?.Image.default.src} />
+						<Image height='100' width='100' src={Team?.Image.default.src} />
 					</div>
 				)}
 			</div>
