@@ -38,8 +38,6 @@ const ProjectInfo = () => {
 					to download your underdog adp and drag it into the csv upload
 				</p>
 			</section>
-			<div tw="w-full h-0.5 bg-indigo-200 rounded-md mt-10" />
-			<section></section>
 		</div>
 	);
 };
